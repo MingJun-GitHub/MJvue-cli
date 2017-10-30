@@ -1,0 +1,4 @@
+src/assest/*.js
+config/*.js
+node_modules/*.js
+bak/*.js
