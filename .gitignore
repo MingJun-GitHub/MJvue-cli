@@ -6,6 +6,7 @@ lib-cov
 *.out
 *.pid
 *.gz
+*.zip
 node_modules
 node/node_modules
 dist
