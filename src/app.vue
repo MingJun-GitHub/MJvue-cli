@@ -21,47 +21,47 @@
   </div>
 </template>
 <style lang="less">
-  @import "assest/css/dsBasics.less";
-  .main{
-    width: 12.42rem;
-    margin: 0 auto;
-  }
-  .router{
-    margin: 0 auto;
-    width: 12.42rem;
-    background: #00c795;
-    ul{
-      width: 100%;
-      box-sizing: border-box;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      display: flex;
-      li{
-        width: 2.484rem;
-        text-align: center;
-        background: #00c795;
-        height: 1.2rem;
-        line-height: 1.2rem;
-        list-style: none;
-        a{
-          color: #fff;
-          text-decoration: none;
-        }
+@import "assest/css/dsBasics.less";
+.main {
+  width: 12.42rem;
+  margin: 0 auto;
+}
+.router {
+  margin: 0 auto;
+  width: 12.42rem;
+  background: #00c795;
+  ul {
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    display: flex;
+    li {
+      width: 2.484rem;
+      text-align: center;
+      background: #00c795;
+      height: 1.2rem;
+      line-height: 1.2rem;
+      list-style: none;
+      a {
+        color: #fff;
+        text-decoration: none;
       }
     }
   }
+}
 </style>
 <script>
-  export default {
-    data: function () {
-      return {
-        page: 'index'
-      }
-    },
-    methods: {
-      gopage () {
-        window.location.href = './page2/'
-      }
+export default {
+  data: function() {
+    return {
+      page: "index"
+    };
+  },
+  methods: {
+    gopage() {
+      window.location.href = "./page2/";
     }
   }
+};
 </script>

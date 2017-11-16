@@ -13,3 +13,5 @@ build
 .idea
 .project
 npm-debug.log
+.vscode
+.vscode/*
