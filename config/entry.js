@@ -45,6 +45,7 @@ var entry = [
     output: '',
     tpl: 'src/tpl/index.html'            // 以根目录为准
   }
+
   // ,{
   //   name: 'page2',
   //   path: path.resolve(__dirname, '../src/views/page2.js'),

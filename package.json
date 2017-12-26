@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node ./config/dev.js",
     "eslint": "node ./config/eslint.js",
-    "prod": "node ./config/prod.js"
+    "prod": "node ./config/prod.js",
+    "create": "node ./cmd/create.js"
   },
   "author": "limingjun",
   "license": "ISC",
