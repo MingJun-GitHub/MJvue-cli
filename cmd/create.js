@@ -94,10 +94,7 @@ var renamefile = function (insrc, name) {
           fs.readFile(path.resolve(insrc, val), function (err, d) {
             if (err) {throw err}
             else {
-              // console.log(d.toString().replace(/\$\{name\}/g, name))
               fs.writeFile(path.resolve(insrc, val),d.toString().replace(/\$\{name\}/g, name), function (err) {
-                console.log('err', err)
-                fs.
               })
             }
           })
