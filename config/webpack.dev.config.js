@@ -60,7 +60,11 @@ var config = webpackMerge(baseconfig, {
     new webpack.NoEmitOnErrorsPlugin(),
     // 加载html模板
     ...utils.CreateTplHtml(),
-    new frienderrtip()
+    new frienderrtip(),
+    // 设置变量
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': '"dev"'
+    }),
   ]
 })
 // console.log('config', config.module.rules);

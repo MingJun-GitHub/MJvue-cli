@@ -113,14 +113,15 @@ var config = {
   },
   // 重命名
   resolve: {
-    extensions: ['.js', '.vue', '.json'],
+    extensions: ['.js', '.vue', '.json', '.less', '.css'],
     alias: {
       '@s': path.resolve(__dirname, '../src'),                         // src
       '@a': path.resolve(__dirname, '../src/assets'),                  // assest
       '@v': path.resolve(__dirname, '../src/components'),              // components
       '@css': path.resolve(__dirname, '../src/assets/css'),            // css
       '@js': path.resolve(__dirname, '../src/assest/js'),              // js
-      '@img': path.resolve(__dirname, '../src/assest/image')           // image
+      '@img': path.resolve(__dirname, '../src/assest/image'),           // image
+      '@page': path.resolve(__dirname, '../src/assest/pages')
     }
   }
 }

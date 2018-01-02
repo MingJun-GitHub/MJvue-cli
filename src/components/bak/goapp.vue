@@ -1,9 +1,9 @@
 <template>
   <div class="goapp">
     <div class="logo">
-      <img src="../assest/image/logo.png" style="width: 2.5rem">
-      <img src="../assest/image/react.png" style="width: 3.2rem">
-      <img src="../assest/image/webpack.png" style="width: 3rem">
+      <img src="../../assest/image/logo.png" style="width: 2.5rem">
+      <img src="../../assest/image/react.png" style="width: 3.2rem">
+      <img src="../../assest/image/webpack.png" style="width: 3rem">
     </div>
   <div class="page">
     <div class="button" @click="gowebview1">打开百度2</div>

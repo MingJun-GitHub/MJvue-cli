@@ -1,7 +1,7 @@
 <template>
   <div class="vuex">
     <div class="vueximg">
-      <img src="../assest/image/vuex.png" style="width: 100%; height: auto;">
+      <img src="../../assest/image/vuex.png" style="width: 100%; height: auto;">
     </div>
     <h3>做一个简单{{msg}}的加减</h3>
     <h4>例子1----->原始访问方法</h4>
@@ -33,7 +33,7 @@
 
 <script>
 /* eslint-disable */
-import store from '../vuex/store'
+import store from '../../vuex/store'
 // 通过mapState 来解析 state
 import {mapState, mapMutations, mapGetters, mapActions} from 'vuex'
 export default {

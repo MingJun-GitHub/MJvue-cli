@@ -10,7 +10,7 @@
   </div>
 </template>
 <script>
-  import '../../node_modules/vue2-animate/dist/vue2-animate.min.css'  // 看需求要不要用动画拉，或者自己写css
+  import '../../../node_modules/vue2-animate/dist/vue2-animate.min.css'  // 看需求要不要用动画拉，或者自己写css
   export default {
     data: function () {
       return {

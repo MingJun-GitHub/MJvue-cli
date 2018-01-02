@@ -35,8 +35,8 @@ var yourip = require('./getip');                // 获取本地ipv4 ip
 var openUrl = `${yourip}:${webconfig.dev.port}/`;
 var server = new webPackDevServer(compiler, {
   hot: true,
-  quiet: true,                                       // 控制台不输出打包信息
-  noInfo: true,
+  quiet: false,                                       // 控制台不输出打包信息
+  noInfo: false,
   publicPath: webconfig.dev.outputPublicPath,
   stats: {
     colors: true

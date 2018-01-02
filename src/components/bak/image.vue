@@ -1,12 +1,12 @@
 <template>
-  <div class="smallimg">
-    <div class="tip">base64图片处理</div>
-    <img src="../assest/image/cuo.png">
+  <div class="bigimg">
+    <div class="tip">普通图片打包</div>
+    <img src="../../assest/image/tx.png">
   </div>
 </template>
 <style lang="less" scoped>
-  .smallimg{
-    width: 12.42rem;
+  .bigimg{
+    width: 100%;
     padding: 1rem 0;
     height:auto;
     display: flex;
@@ -14,8 +14,10 @@
     align-items: center;
     justify-content: center;
     img{
-      width: 4rem;
+      width: 7.5rem;
       height:auto;
+      display: block;
+      margin: 0 auto;
     }
   }
 </style>
